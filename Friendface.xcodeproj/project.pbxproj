@@ -11,6 +11,8 @@
 		D94267B32C3CEC5E00565846 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94267B22C3CEC5E00565846 /* ContentView.swift */; };
 		D94267B52C3CEC5F00565846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94267B42C3CEC5F00565846 /* Assets.xcassets */; };
 		D94267B82C3CEC5F00565846 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94267B72C3CEC5F00565846 /* Preview Assets.xcassets */; };
+		D9CEE5F22C4A0275003917E3 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CEE5F12C4A0275003917E3 /* Friend.swift */; };
+		D9CEE5F42C4A0314003917E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CEE5F32C4A0314003917E3 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D94267B22C3CEC5E00565846 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D94267B42C3CEC5F00565846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D94267B72C3CEC5F00565846 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9CEE5F12C4A0275003917E3 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		D9CEE5F32C4A0314003917E3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D94267B02C3CEC5E00565846 /* FriendfaceApp.swift */,
 				D94267B22C3CEC5E00565846 /* ContentView.swift */,
+				D9CEE5F12C4A0275003917E3 /* Friend.swift */,
+				D9CEE5F32C4A0314003917E3 /* User.swift */,
 				D94267B42C3CEC5F00565846 /* Assets.xcassets */,
 				D94267B62C3CEC5F00565846 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9CEE5F42C4A0314003917E3 /* User.swift in Sources */,
+				D9CEE5F22C4A0275003917E3 /* Friend.swift in Sources */,
 				D94267B32C3CEC5E00565846 /* ContentView.swift in Sources */,
 				D94267B12C3CEC5E00565846 /* FriendfaceApp.swift in Sources */,
 			);
