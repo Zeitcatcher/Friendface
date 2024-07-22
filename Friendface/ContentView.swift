@@ -25,7 +25,7 @@ struct ContentView: View {
             }
             .navigationTitle("FriendFace")
             .navigationDestination(for: User.self) { user in
-                Text(user.name)
+                UserView(user: user)
             }
             .task {
                 await fetchUsers()
