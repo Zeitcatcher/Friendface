@@ -9,5 +9,5 @@ import Foundation
 
 struct Friend: Hashable, Identifiable, Codable {
     let id: UUID
-    let name: String
+    var name: String
 }
